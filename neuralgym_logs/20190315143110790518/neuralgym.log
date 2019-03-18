@@ -1,0 +1,231 @@
+[INFO  2019-03-15 14:31:10 @__init__.py:79] Set root logger. Unset logger with neuralgym.unset_logger().
+[INFO  2019-03-15 14:31:10 @__init__.py:80] Saving logging to file: neuralgym_logs/20190315143110790518.
+[INFO  2019-03-15 14:31:11 @config.py:92] ---------------------------------- APP CONFIG ----------------------------------
+[INFO  2019-03-15 14:31:11 @config.py:119] DATASET: celeba
+[INFO  2019-03-15 14:31:11 @config.py:119] RANDOM_CROP: True
+[INFO  2019-03-15 14:31:11 @config.py:119] VAL: False
+[INFO  2019-03-15 14:31:11 @config.py:119] LOG_DIR: release_celeba_256
+[INFO  2019-03-15 14:31:11 @config.py:119] MODEL_RESTORE: 
+[INFO  2019-03-15 14:31:11 @config.py:119] GAN: wgan_gp
+[INFO  2019-03-15 14:31:11 @config.py:119] PRETRAIN_COARSE_NETWORK: False
+[INFO  2019-03-15 14:31:11 @config.py:119] GAN_LOSS_ALPHA: 0.001
+[INFO  2019-03-15 14:31:11 @config.py:119] WGAN_GP_LAMBDA: 10
+[INFO  2019-03-15 14:31:11 @config.py:119] COARSE_L1_ALPHA: 1.2
+[INFO  2019-03-15 14:31:11 @config.py:119] L1_LOSS_ALPHA: 1.2
+[INFO  2019-03-15 14:31:11 @config.py:119] AE_LOSS_ALPHA: 1.2
+[INFO  2019-03-15 14:31:11 @config.py:119] GAN_WITH_MASK: False
+[INFO  2019-03-15 14:31:11 @config.py:119] DISCOUNTED_MASK: True
+[INFO  2019-03-15 14:31:11 @config.py:119] RANDOM_SEED: False
+[INFO  2019-03-15 14:31:11 @config.py:119] PADDING: SAME
+[INFO  2019-03-15 14:31:11 @config.py:119] NUM_GPUS: 0
+[INFO  2019-03-15 14:31:11 @config.py:119] GPU_ID: -1
+[INFO  2019-03-15 14:31:11 @config.py:119] TRAIN_SPE: 10000
+[INFO  2019-03-15 14:31:11 @config.py:119] MAX_ITERS: 1000
+[INFO  2019-03-15 14:31:11 @config.py:119] VIZ_MAX_OUT: 10
+[INFO  2019-03-15 14:31:11 @config.py:119] GRADS_SUMMARY: False
+[INFO  2019-03-15 14:31:11 @config.py:119] GRADIENT_CLIP: False
+[INFO  2019-03-15 14:31:11 @config.py:119] GRADIENT_CLIP_VALUE: 0.1
+[INFO  2019-03-15 14:31:11 @config.py:119] VAL_PSTEPS: 1000
+[INFO  2019-03-15 14:31:11 @config.py:111] DATA_FLIST: 
+[INFO  2019-03-15 14:31:11 @config.py:119]   celeba: ['/Users/ankitkulkarni/Desktop/Final Year Project/generative_inpainting-master/data_flist/train_shuffled.flist', '/Users/ankitkulkarni/Desktop/Final Year Project/generative_inpainting-master/data_flist/validation_shuffled.flist']
+[INFO  2019-03-15 14:31:11 @config.py:119] STATIC_VIEW_SIZE: 30
+[INFO  2019-03-15 14:31:11 @config.py:119] IMG_SHAPES: [256, 256, 3]
+[INFO  2019-03-15 14:31:11 @config.py:119] HEIGHT: 128
+[INFO  2019-03-15 14:31:11 @config.py:119] WIDTH: 128
+[INFO  2019-03-15 14:31:11 @config.py:119] MAX_DELTA_HEIGHT: 32
+[INFO  2019-03-15 14:31:11 @config.py:119] MAX_DELTA_WIDTH: 32
+[INFO  2019-03-15 14:31:11 @config.py:119] BATCH_SIZE: 16
+[INFO  2019-03-15 14:31:11 @config.py:119] VERTICAL_MARGIN: 0
+[INFO  2019-03-15 14:31:11 @config.py:119] HORIZONTAL_MARGIN: 0
+[INFO  2019-03-15 14:31:11 @config.py:119] AE_LOSS: True
+[INFO  2019-03-15 14:31:11 @config.py:119] L1_LOSS: True
+[INFO  2019-03-15 14:31:11 @config.py:119] GLOBAL_DCGAN_LOSS_ALPHA: 1.0
+[INFO  2019-03-15 14:31:11 @config.py:119] GLOBAL_WGAN_LOSS_ALPHA: 1.0
+[INFO  2019-03-15 14:31:11 @config.py:119] LOAD_VGG_MODEL: False
+[INFO  2019-03-15 14:31:11 @config.py:119] VGG_MODEL_FILE: data/model_zoo/vgg16.npz
+[INFO  2019-03-15 14:31:11 @config.py:119] FEATURE_LOSS: False
+[INFO  2019-03-15 14:31:11 @config.py:119] GRAMS_LOSS: False
+[INFO  2019-03-15 14:31:11 @config.py:119] TV_LOSS: False
+[INFO  2019-03-15 14:31:11 @config.py:119] TV_LOSS_ALPHA: 0.0
+[INFO  2019-03-15 14:31:11 @config.py:119] FEATURE_LOSS_ALPHA: 0.01
+[INFO  2019-03-15 14:31:11 @config.py:119] GRAMS_LOSS_ALPHA: 50
+[INFO  2019-03-15 14:31:11 @config.py:119] SPATIAL_DISCOUNTING_GAMMA: 0.9
+[INFO  2019-03-15 14:31:11 @config.py:94] --------------------------------------------------------------------------------
+[INFO  2019-03-15 14:31:11 @gpus.py:39] Error reading GPU information, set no GPU.
+[INFO  2019-03-15 14:31:11 @dataset.py:26] --------------------------------- Dataset Info ---------------------------------
+[INFO  2019-03-15 14:31:11 @dataset.py:36] file_length: 10
+[INFO  2019-03-15 14:31:11 @dataset.py:36] random: False
+[INFO  2019-03-15 14:31:11 @dataset.py:36] random_crop: True
+[INFO  2019-03-15 14:31:11 @dataset.py:36] filetype: image
+[INFO  2019-03-15 14:31:11 @dataset.py:36] shapes: [[256, 256, 3]]
+[INFO  2019-03-15 14:31:11 @dataset.py:36] dtypes: [tf.float32]
+[INFO  2019-03-15 14:31:11 @dataset.py:36] return_fnames: False
+[INFO  2019-03-15 14:31:11 @dataset.py:36] batch_phs: [<tf.Tensor 'Placeholder:0' shape=(?, 256, 256, 3) dtype=float32>]
+[INFO  2019-03-15 14:31:11 @dataset.py:36] enqueue_size: 32
+[INFO  2019-03-15 14:31:11 @dataset.py:36] queue_size: 256
+[INFO  2019-03-15 14:31:11 @dataset.py:36] nthreads: 16
+[INFO  2019-03-15 14:31:11 @dataset.py:36] fn_preprocess: None
+[INFO  2019-03-15 14:31:11 @dataset.py:36] index: 0
+[INFO  2019-03-15 14:31:11 @dataset.py:37] --------------------------------------------------------------------------------
+[INFO  2019-03-15 14:31:13 @inpaint_model.py:159] Set batch_predicted to x2.
+[INFO  2019-03-15 14:31:13 @inpaint_ops.py:201] Use spatial discounting l1 loss.
+[INFO  2019-03-15 14:31:13 @inpaint_ops.py:201] Use spatial discounting l1 loss.
+[INFO  2019-03-15 14:31:13 @inpaint_model.py:241] Set L1_LOSS_ALPHA to 1.200000
+[INFO  2019-03-15 14:31:13 @inpaint_model.py:242] Set GAN_LOSS_ALPHA to 0.001000
+[INFO  2019-03-15 14:31:13 @inpaint_model.py:245] Set AE_LOSS_ALPHA to 1.200000
+[INFO  2019-03-15 14:31:15 @inpaint_model.py:159] Set batch_predicted to x2.
+[INFO  2019-03-15 14:31:15 @inpaint_ops.py:201] Use spatial discounting l1 loss.
+[INFO  2019-03-15 14:31:15 @inpaint_ops.py:201] Use spatial discounting l1 loss.
+[INFO  2019-03-15 14:31:15 @inpaint_model.py:241] Set L1_LOSS_ALPHA to 1.200000
+[INFO  2019-03-15 14:31:15 @inpaint_model.py:242] Set GAN_LOSS_ALPHA to 0.001000
+[INFO  2019-03-15 14:31:15 @inpaint_model.py:245] Set AE_LOSS_ALPHA to 1.200000
+[INFO  2019-03-15 14:31:15 @trainer.py:61] ------------------------- Context Of Secondary Trainer -------------------------
+[INFO  2019-03-15 14:31:15 @trainer.py:63] optimizer: <tensorflow.python.training.adam.AdamOptimizer object at 0x124b16f60>
+[INFO  2019-03-15 14:31:15 @trainer.py:63] var_list: [<tf.Variable 'discriminator/discriminator_local/conv1/kernel:0' shape=(5, 5, 3, 64) dtype=float32_ref>, <tf.Variable 'discriminator/discriminator_local/conv1/bias:0' shape=(64,) dtype=float32_ref>, <tf.Variable 'discriminator/discriminator_local/conv2/kernel:0' shape=(5, 5, 64, 128) dtype=float32_ref>, <tf.Variable 'discriminator/discriminator_local/conv2/bias:0' shape=(128,) dtype=float32_ref>, <tf.Variable 'discriminator/discriminator_local/conv3/kernel:0' shape=(5, 5, 128, 256) dtype=float32_ref>, <tf.Variable 'discriminator/discriminator_local/conv3/bias:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'discriminator/discriminator_local/conv4/kernel:0' shape=(5, 5, 256, 512) dtype=float32_ref>, <tf.Variable 'discriminator/discriminator_local/conv4/bias:0' shape=(512,) dtype=float32_ref>, <tf.Variable 'discriminator/discriminator_global/conv1/kernel:0' shape=(5, 5, 3, 64) dtype=float32_ref>, <tf.Variable 'discriminator/discriminator_global/conv1/bias:0' shape=(64,) dtype=float32_ref>, <tf.Variable 'discriminator/discriminator_global/conv2/kernel:0' shape=(5, 5, 64, 128) dtype=float32_ref>, <tf.Variable 'discriminator/discriminator_global/conv2/bias:0' shape=(128,) dtype=float32_ref>, <tf.Variable 'discriminator/discriminator_global/conv3/kernel:0' shape=(5, 5, 128, 256) dtype=float32_ref>, <tf.Variable 'discriminator/discriminator_global/conv3/bias:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'discriminator/discriminator_global/conv4/kernel:0' shape=(5, 5, 256, 256) dtype=float32_ref>, <tf.Variable 'discriminator/discriminator_global/conv4/bias:0' shape=(256,) dtype=float32_ref>, <tf.Variable 'discriminator/dout_local_fc/kernel:0' shape=(32768, 1) dtype=float32_ref>, <tf.Variable 'discriminator/dout_local_fc/bias:0' shape=(1,) dtype=float32_ref>, <tf.Variable 'discriminator/dout_global_fc/kernel:0' shape=(65536, 1) dtype=float32_ref>, <tf.Variable 'discriminator/dout_global_fc/bias:0' shape=(1,) dtype=float32_ref>]
+[INFO  2019-03-15 14:31:15 @trainer.py:63] graph_def: <function multigpu_graph_def at 0x103879ea0>
+[INFO  2019-03-15 14:31:15 @trainer.py:63] graph_def_kwargs: {'model': <inpaint_model.InpaintCAModel object at 0x122ec2da0>, 'data': <neuralgym.data.data_from_fnames.DataFromFNames object at 0x122ec2320>, 'config': {}, 'loss_type': 'd'}
+[INFO  2019-03-15 14:31:15 @trainer.py:63] feed_dict: {}
+[INFO  2019-03-15 14:31:15 @trainer.py:63] max_iters: 5
+[INFO  2019-03-15 14:31:15 @trainer.py:63] log_dir: /tmp/neuralgym
+[INFO  2019-03-15 14:31:15 @trainer.py:63] spe: 1
+[INFO  2019-03-15 14:31:15 @trainer.py:63] grads_summary: True
+[INFO  2019-03-15 14:31:15 @trainer.py:63] log_progress: False
+[INFO  2019-03-15 14:31:15 @trainer.py:64] --------------------------------------------------------------------------------
+[INFO  2019-03-15 14:31:17 @inpaint_model.py:159] Set batch_predicted to x2.
+[INFO  2019-03-15 14:31:17 @inpaint_ops.py:201] Use spatial discounting l1 loss.
+[INFO  2019-03-15 14:31:17 @inpaint_ops.py:201] Use spatial discounting l1 loss.
+[INFO  2019-03-15 14:31:21 @inpaint_model.py:241] Set L1_LOSS_ALPHA to 1.200000
+[INFO  2019-03-15 14:31:21 @inpaint_model.py:242] Set GAN_LOSS_ALPHA to 0.001000
+[INFO  2019-03-15 14:31:21 @inpaint_model.py:245] Set AE_LOSS_ALPHA to 1.200000
+[INFO  2019-03-15 14:31:29 @trainer.py:59] -------------------------- Context Of Primary Trainer --------------------------
+[INFO  2019-03-15 14:31:29 @trainer.py:63] optimizer: <tensorflow.python.training.adam.AdamOptimizer object at 0x124b16f60>
+[INFO  2019-03-15 14:31:29 @trainer.py:63] var_list: [<tf.Variable 'inpaint_net/conv1/kernel:0' shape=(5, 5, 5, 32) dtype=float32_ref>, <tf.Variable 'inpaint_net/conv1/bias:0' shape=(32,) dtype=float32_ref>, <tf.Variable 'inpaint_net/conv2_downsample/kernel:0' shape=(3, 3, 32, 64) dtype=float32_ref>, <tf.Variable 'inpaint_net/conv2_downsample/bias:0' shape=(64,) dtype=float32_ref>, <tf.Variable 'inpaint_net/conv3/kernel:0' shape=(3, 3, 64, 64) dtype=float32_ref>, <tf.Variable 'inpaint_net/conv3/bias:0' shape=(64,) dtype=float32_ref>, <tf.Variable 'inpaint_net/conv4_downsample/kernel:0' shape=(3, 3, 64, 128) dtype=float32_ref>, <tf.Variable 'inpaint_net/conv4_downsample/bias:0' shape=(128,) dtype=float32_ref>, <tf.Variable 'inpaint_net/conv5/kernel:0' shape=(3, 3, 128, 128) dtype=float32_ref>, <tf.Variable 'inpaint_net/conv5/bias:0' shape=(128,) dtype=float32_ref>, <tf.Variable 'inpaint_net/conv6/kernel:0' shape=(3, 3, 128, 128) dtype=float32_ref>, <tf.Variable 'inpaint_net/conv6/bias:0' shape=(128,) dtype=float32_ref>, <tf.Variable 'inpaint_net/conv7_atrous/kernel:0' shape=(3, 3, 128, 128) dtype=float32_ref>, <tf.Variable 'inpaint_net/conv7_atrous/bias:0' shape=(128,) dtype=float32_ref>, <tf.Variable 'inpaint_net/conv8_atrous/kernel:0' shape=(3, 3, 128, 128) dtype=float32_ref>, <tf.Variable 'inpaint_net/conv8_atrous/bias:0' shape=(128,) dtype=float32_ref>, <tf.Variable 'inpaint_net/conv9_atrous/kernel:0' shape=(3, 3, 128, 128) dtype=float32_ref>, <tf.Variable 'inpaint_net/conv9_atrous/bias:0' shape=(128,) dtype=float32_ref>, <tf.Variable 'inpaint_net/conv10_atrous/kernel:0' shape=(3, 3, 128, 128) dtype=float32_ref>, <tf.Variable 'inpaint_net/conv10_atrous/bias:0' shape=(128,) dtype=float32_ref>, <tf.Variable 'inpaint_net/conv11/kernel:0' shape=(3, 3, 128, 128) dtype=float32_ref>, <tf.Variable 'inpaint_net/conv11/bias:0' shape=(128,) dtype=float32_ref>, <tf.Variable 'inpaint_net/conv12/kernel:0' shape=(3, 3, 128, 128) dtype=float32_ref>, <tf.Variable 'inpaint_net/conv12/bias:0' shape=(128,) dtype=float32_ref>, <tf.Variable 'inpaint_net/conv13_upsample/conv13_upsample_conv/kernel:0' shape=(3, 3, 128, 64) dtype=float32_ref>, <tf.Variable 'inpaint_net/conv13_upsample/conv13_upsample_conv/bias:0' shape=(64,) dtype=float32_ref>, <tf.Variable 'inpaint_net/conv14/kernel:0' shape=(3, 3, 64, 64) dtype=float32_ref>, <tf.Variable 'inpaint_net/conv14/bias:0' shape=(64,) dtype=float32_ref>, <tf.Variable 'inpaint_net/conv15_upsample/conv15_upsample_conv/kernel:0' shape=(3, 3, 64, 32) dtype=float32_ref>, <tf.Variable 'inpaint_net/conv15_upsample/conv15_upsample_conv/bias:0' shape=(32,) dtype=float32_ref>, <tf.Variable 'inpaint_net/conv16/kernel:0' shape=(3, 3, 32, 16) dtype=float32_ref>, <tf.Variable 'inpaint_net/conv16/bias:0' shape=(16,) dtype=float32_ref>, <tf.Variable 'inpaint_net/conv17/kernel:0' shape=(3, 3, 16, 3) dtype=float32_ref>, <tf.Variable 'inpaint_net/conv17/bias:0' shape=(3,) dtype=float32_ref>, <tf.Variable 'inpaint_net/xconv1/kernel:0' shape=(5, 5, 5, 32) dtype=float32_ref>, <tf.Variable 'inpaint_net/xconv1/bias:0' shape=(32,) dtype=float32_ref>, <tf.Variable 'inpaint_net/xconv2_downsample/kernel:0' shape=(3, 3, 32, 32) dtype=float32_ref>, <tf.Variable 'inpaint_net/xconv2_downsample/bias:0' shape=(32,) dtype=float32_ref>, <tf.Variable 'inpaint_net/xconv3/kernel:0' shape=(3, 3, 32, 64) dtype=float32_ref>, <tf.Variable 'inpaint_net/xconv3/bias:0' shape=(64,) dtype=float32_ref>, <tf.Variable 'inpaint_net/xconv4_downsample/kernel:0' shape=(3, 3, 64, 64) dtype=float32_ref>, <tf.Variable 'inpaint_net/xconv4_downsample/bias:0' shape=(64,) dtype=float32_ref>, <tf.Variable 'inpaint_net/xconv5/kernel:0' shape=(3, 3, 64, 128) dtype=float32_ref>, <tf.Variable 'inpaint_net/xconv5/bias:0' shape=(128,) dtype=float32_ref>, <tf.Variable 'inpaint_net/xconv6/kernel:0' shape=(3, 3, 128, 128) dtype=float32_ref>, <tf.Variable 'inpaint_net/xconv6/bias:0' shape=(128,) dtype=float32_ref>, <tf.Variable 'inpaint_net/xconv7_atrous/kernel:0' shape=(3, 3, 128, 128) dtype=float32_ref>, <tf.Variable 'inpaint_net/xconv7_atrous/bias:0' shape=(128,) dtype=float32_ref>, <tf.Variable 'inpaint_net/xconv8_atrous/kernel:0' shape=(3, 3, 128, 128) dtype=float32_ref>, <tf.Variable 'inpaint_net/xconv8_atrous/bias:0' shape=(128,) dtype=float32_ref>, <tf.Variable 'inpaint_net/xconv9_atrous/kernel:0' shape=(3, 3, 128, 128) dtype=float32_ref>, <tf.Variable 'inpaint_net/xconv9_atrous/bias:0' shape=(128,) dtype=float32_ref>, <tf.Variable 'inpaint_net/xconv10_atrous/kernel:0' shape=(3, 3, 128, 128) dtype=float32_ref>, <tf.Variable 'inpaint_net/xconv10_atrous/bias:0' shape=(128,) dtype=float32_ref>, <tf.Variable 'inpaint_net/pmconv1/kernel:0' shape=(5, 5, 5, 32) dtype=float32_ref>, <tf.Variable 'inpaint_net/pmconv1/bias:0' shape=(32,) dtype=float32_ref>, <tf.Variable 'inpaint_net/pmconv2_downsample/kernel:0' shape=(3, 3, 32, 32) dtype=float32_ref>, <tf.Variable 'inpaint_net/pmconv2_downsample/bias:0' shape=(32,) dtype=float32_ref>, <tf.Variable 'inpaint_net/pmconv3/kernel:0' shape=(3, 3, 32, 64) dtype=float32_ref>, <tf.Variable 'inpaint_net/pmconv3/bias:0' shape=(64,) dtype=float32_ref>, <tf.Variable 'inpaint_net/pmconv4_downsample/kernel:0' shape=(3, 3, 64, 128) dtype=float32_ref>, <tf.Variable 'inpaint_net/pmconv4_downsample/bias:0' shape=(128,) dtype=float32_ref>, <tf.Variable 'inpaint_net/pmconv5/kernel:0' shape=(3, 3, 128, 128) dtype=float32_ref>, <tf.Variable 'inpaint_net/pmconv5/bias:0' shape=(128,) dtype=float32_ref>, <tf.Variable 'inpaint_net/pmconv6/kernel:0' shape=(3, 3, 128, 128) dtype=float32_ref>, <tf.Variable 'inpaint_net/pmconv6/bias:0' shape=(128,) dtype=float32_ref>, <tf.Variable 'inpaint_net/pmconv9/kernel:0' shape=(3, 3, 128, 128) dtype=float32_ref>, <tf.Variable 'inpaint_net/pmconv9/bias:0' shape=(128,) dtype=float32_ref>, <tf.Variable 'inpaint_net/pmconv10/kernel:0' shape=(3, 3, 128, 128) dtype=float32_ref>, <tf.Variable 'inpaint_net/pmconv10/bias:0' shape=(128,) dtype=float32_ref>, <tf.Variable 'inpaint_net/allconv11/kernel:0' shape=(3, 3, 256, 128) dtype=float32_ref>, <tf.Variable 'inpaint_net/allconv11/bias:0' shape=(128,) dtype=float32_ref>, <tf.Variable 'inpaint_net/allconv12/kernel:0' shape=(3, 3, 128, 128) dtype=float32_ref>, <tf.Variable 'inpaint_net/allconv12/bias:0' shape=(128,) dtype=float32_ref>, <tf.Variable 'inpaint_net/allconv13_upsample/allconv13_upsample_conv/kernel:0' shape=(3, 3, 128, 64) dtype=float32_ref>, <tf.Variable 'inpaint_net/allconv13_upsample/allconv13_upsample_conv/bias:0' shape=(64,) dtype=float32_ref>, <tf.Variable 'inpaint_net/allconv14/kernel:0' shape=(3, 3, 64, 64) dtype=float32_ref>, <tf.Variable 'inpaint_net/allconv14/bias:0' shape=(64,) dtype=float32_ref>, <tf.Variable 'inpaint_net/allconv15_upsample/allconv15_upsample_conv/kernel:0' shape=(3, 3, 64, 32) dtype=float32_ref>, <tf.Variable 'inpaint_net/allconv15_upsample/allconv15_upsample_conv/bias:0' shape=(32,) dtype=float32_ref>, <tf.Variable 'inpaint_net/allconv16/kernel:0' shape=(3, 3, 32, 16) dtype=float32_ref>, <tf.Variable 'inpaint_net/allconv16/bias:0' shape=(16,) dtype=float32_ref>, <tf.Variable 'inpaint_net/allconv17/kernel:0' shape=(3, 3, 16, 3) dtype=float32_ref>, <tf.Variable 'inpaint_net/allconv17/bias:0' shape=(3,) dtype=float32_ref>]
+[INFO  2019-03-15 14:31:29 @trainer.py:63] graph_def: <function multigpu_graph_def at 0x103879ea0>
+[INFO  2019-03-15 14:31:29 @trainer.py:63] gradient_processor: None
+[INFO  2019-03-15 14:31:29 @trainer.py:63] graph_def_kwargs: {'model': <inpaint_model.InpaintCAModel object at 0x122ec2da0>, 'data': <neuralgym.data.data_from_fnames.DataFromFNames object at 0x122ec2320>, 'config': {}, 'loss_type': 'g'}
+[INFO  2019-03-15 14:31:29 @trainer.py:63] feed_dict: {}
+[INFO  2019-03-15 14:31:29 @trainer.py:63] max_iters: 1000
+[INFO  2019-03-15 14:31:29 @trainer.py:63] log_dir: model_logs/20190315143113595350_Ankits-MacBook-Pro.local_celeba_NORMAL_wgan_gp_release_celeba_256
+[INFO  2019-03-15 14:31:29 @trainer.py:63] spe: 10000
+[INFO  2019-03-15 14:31:29 @trainer.py:63] grads_summary: False
+[INFO  2019-03-15 14:31:29 @trainer.py:63] log_progress: True
+[INFO  2019-03-15 14:31:29 @trainer.py:63] global_step: <tf.Variable 'global_step:0' shape=() dtype=int32_ref>
+[INFO  2019-03-15 14:31:29 @trainer.py:63] global_step_add_one: Tensor("add_one_to_global_step:0", shape=(), dtype=int32_ref)
+[INFO  2019-03-15 14:31:29 @trainer.py:63] sess_config: gpu_options {
+  allow_growth: true
+}
+allow_soft_placement: true
+
+[INFO  2019-03-15 14:31:29 @trainer.py:63] sess: <tensorflow.python.client.session.Session object at 0x1291dc470>
+[INFO  2019-03-15 14:31:29 @trainer.py:63] summary_writer: <tensorflow.python.summary.writer.writer.FileWriter object at 0x1291dc780>
+[INFO  2019-03-15 14:31:29 @trainer.py:63] saver: <tensorflow.python.training.saver.Saver object at 0x12d2ffdd8>
+[INFO  2019-03-15 14:31:29 @trainer.py:63] start_queue_runners: True
+[INFO  2019-03-15 14:31:29 @trainer.py:63] global_variables_initializer: True
+[INFO  2019-03-15 14:31:29 @trainer.py:64] --------------------------------------------------------------------------------
+[INFO  2019-03-15 14:31:31 @logger.py:43] [32;1mTrigger callback: [0mTrigger WeightsViewer: logging model weights...
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/conv1/kernel:0, shape: [5, 5, 5, 32], size: 4000
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/conv1/bias:0, shape: [32], size: 32
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/conv2_downsample/kernel:0, shape: [3, 3, 32, 64], size: 18432
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/conv2_downsample/bias:0, shape: [64], size: 64
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/conv3/kernel:0, shape: [3, 3, 64, 64], size: 36864
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/conv3/bias:0, shape: [64], size: 64
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/conv4_downsample/kernel:0, shape: [3, 3, 64, 128], size: 73728
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/conv4_downsample/bias:0, shape: [128], size: 128
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/conv5/kernel:0, shape: [3, 3, 128, 128], size: 147456
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/conv5/bias:0, shape: [128], size: 128
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/conv6/kernel:0, shape: [3, 3, 128, 128], size: 147456
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/conv6/bias:0, shape: [128], size: 128
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/conv7_atrous/kernel:0, shape: [3, 3, 128, 128], size: 147456
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/conv7_atrous/bias:0, shape: [128], size: 128
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/conv8_atrous/kernel:0, shape: [3, 3, 128, 128], size: 147456
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/conv8_atrous/bias:0, shape: [128], size: 128
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/conv9_atrous/kernel:0, shape: [3, 3, 128, 128], size: 147456
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/conv9_atrous/bias:0, shape: [128], size: 128
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/conv10_atrous/kernel:0, shape: [3, 3, 128, 128], size: 147456
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/conv10_atrous/bias:0, shape: [128], size: 128
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/conv11/kernel:0, shape: [3, 3, 128, 128], size: 147456
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/conv11/bias:0, shape: [128], size: 128
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/conv12/kernel:0, shape: [3, 3, 128, 128], size: 147456
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/conv12/bias:0, shape: [128], size: 128
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/conv13_upsample/conv13_upsample_conv/kernel:0, shape: [3, 3, 128, 64], size: 73728
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/conv13_upsample/conv13_upsample_conv/bias:0, shape: [64], size: 64
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/conv14/kernel:0, shape: [3, 3, 64, 64], size: 36864
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/conv14/bias:0, shape: [64], size: 64
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/conv15_upsample/conv15_upsample_conv/kernel:0, shape: [3, 3, 64, 32], size: 18432
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/conv15_upsample/conv15_upsample_conv/bias:0, shape: [32], size: 32
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/conv16/kernel:0, shape: [3, 3, 32, 16], size: 4608
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/conv16/bias:0, shape: [16], size: 16
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/conv17/kernel:0, shape: [3, 3, 16, 3], size: 432
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/conv17/bias:0, shape: [3], size: 3
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/xconv1/kernel:0, shape: [5, 5, 5, 32], size: 4000
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/xconv1/bias:0, shape: [32], size: 32
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/xconv2_downsample/kernel:0, shape: [3, 3, 32, 32], size: 9216
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/xconv2_downsample/bias:0, shape: [32], size: 32
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/xconv3/kernel:0, shape: [3, 3, 32, 64], size: 18432
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/xconv3/bias:0, shape: [64], size: 64
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/xconv4_downsample/kernel:0, shape: [3, 3, 64, 64], size: 36864
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/xconv4_downsample/bias:0, shape: [64], size: 64
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/xconv5/kernel:0, shape: [3, 3, 64, 128], size: 73728
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/xconv5/bias:0, shape: [128], size: 128
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/xconv6/kernel:0, shape: [3, 3, 128, 128], size: 147456
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/xconv6/bias:0, shape: [128], size: 128
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/xconv7_atrous/kernel:0, shape: [3, 3, 128, 128], size: 147456
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/xconv7_atrous/bias:0, shape: [128], size: 128
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/xconv8_atrous/kernel:0, shape: [3, 3, 128, 128], size: 147456
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/xconv8_atrous/bias:0, shape: [128], size: 128
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/xconv9_atrous/kernel:0, shape: [3, 3, 128, 128], size: 147456
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/xconv9_atrous/bias:0, shape: [128], size: 128
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/xconv10_atrous/kernel:0, shape: [3, 3, 128, 128], size: 147456
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/xconv10_atrous/bias:0, shape: [128], size: 128
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/pmconv1/kernel:0, shape: [5, 5, 5, 32], size: 4000
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/pmconv1/bias:0, shape: [32], size: 32
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/pmconv2_downsample/kernel:0, shape: [3, 3, 32, 32], size: 9216
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/pmconv2_downsample/bias:0, shape: [32], size: 32
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/pmconv3/kernel:0, shape: [3, 3, 32, 64], size: 18432
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/pmconv3/bias:0, shape: [64], size: 64
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/pmconv4_downsample/kernel:0, shape: [3, 3, 64, 128], size: 73728
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/pmconv4_downsample/bias:0, shape: [128], size: 128
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/pmconv5/kernel:0, shape: [3, 3, 128, 128], size: 147456
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/pmconv5/bias:0, shape: [128], size: 128
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/pmconv6/kernel:0, shape: [3, 3, 128, 128], size: 147456
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/pmconv6/bias:0, shape: [128], size: 128
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/pmconv9/kernel:0, shape: [3, 3, 128, 128], size: 147456
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/pmconv9/bias:0, shape: [128], size: 128
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/pmconv10/kernel:0, shape: [3, 3, 128, 128], size: 147456
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/pmconv10/bias:0, shape: [128], size: 128
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/allconv11/kernel:0, shape: [3, 3, 256, 128], size: 294912
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/allconv11/bias:0, shape: [128], size: 128
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/allconv12/kernel:0, shape: [3, 3, 128, 128], size: 147456
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/allconv12/bias:0, shape: [128], size: 128
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/allconv13_upsample/allconv13_upsample_conv/kernel:0, shape: [3, 3, 128, 64], size: 73728
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/allconv13_upsample/allconv13_upsample_conv/bias:0, shape: [64], size: 64
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/allconv14/kernel:0, shape: [3, 3, 64, 64], size: 36864
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/allconv14/bias:0, shape: [64], size: 64
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/allconv15_upsample/allconv15_upsample_conv/kernel:0, shape: [3, 3, 64, 32], size: 18432
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/allconv15_upsample/allconv15_upsample_conv/bias:0, shape: [32], size: 32
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/allconv16/kernel:0, shape: [3, 3, 32, 16], size: 4608
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/allconv16/bias:0, shape: [16], size: 16
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/allconv17/kernel:0, shape: [3, 3, 16, 3], size: 432
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: inpaint_net/allconv17/bias:0, shape: [3], size: 3
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: discriminator/discriminator_local/conv1/kernel:0, shape: [5, 5, 3, 64], size: 4800
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: discriminator/discriminator_local/conv1/bias:0, shape: [64], size: 64
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: discriminator/discriminator_local/conv2/kernel:0, shape: [5, 5, 64, 128], size: 204800
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: discriminator/discriminator_local/conv2/bias:0, shape: [128], size: 128
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: discriminator/discriminator_local/conv3/kernel:0, shape: [5, 5, 128, 256], size: 819200
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: discriminator/discriminator_local/conv3/bias:0, shape: [256], size: 256
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: discriminator/discriminator_local/conv4/kernel:0, shape: [5, 5, 256, 512], size: 3276800
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: discriminator/discriminator_local/conv4/bias:0, shape: [512], size: 512
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: discriminator/discriminator_global/conv1/kernel:0, shape: [5, 5, 3, 64], size: 4800
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: discriminator/discriminator_global/conv1/bias:0, shape: [64], size: 64
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: discriminator/discriminator_global/conv2/kernel:0, shape: [5, 5, 64, 128], size: 204800
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: discriminator/discriminator_global/conv2/bias:0, shape: [128], size: 128
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: discriminator/discriminator_global/conv3/kernel:0, shape: [5, 5, 128, 256], size: 819200
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: discriminator/discriminator_global/conv3/bias:0, shape: [256], size: 256
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: discriminator/discriminator_global/conv4/kernel:0, shape: [5, 5, 256, 256], size: 1638400
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: discriminator/discriminator_global/conv4/bias:0, shape: [256], size: 256
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: discriminator/dout_local_fc/kernel:0, shape: [32768, 1], size: 32768
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: discriminator/dout_local_fc/bias:0, shape: [1], size: 1
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: discriminator/dout_global_fc/kernel:0, shape: [65536, 1], size: 65536
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:43] - weight name: discriminator/dout_global_fc/bias:0, shape: [1], size: 1
+[INFO  2019-03-15 14:31:31 @logger.py:43] [32;1mTrigger callback: [0mTotal counts of trainable weights: 10674312.
+[INFO  2019-03-15 14:31:31 @weights_viewer.py:60] Total size of trainable weights: 0G 10M 184K 136B (Assuming32-bit data type.)
